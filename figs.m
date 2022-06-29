@@ -1,4 +1,8 @@
+
 clear all; clc; close all
+
+% Plots the boundary layer data on a sphere colour plot to easily visualise the flow for a given Reynolds number (Re)
+% Note: As Re increases the width of the boundary layer decreases, so keep it reasonably low to get decent plots
 
 BLfile = 'BL.mat';
 load(BLfile); U = VelBL{1}; V = VelBL{2}; W = VelBL{3}; 
