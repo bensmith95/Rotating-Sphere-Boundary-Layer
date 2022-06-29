@@ -6,5 +6,6 @@ The Von Karman equations for the boundary layer flow over a rotating disk are al
 
 To run, simply download files and run "BLRegion" in the command window. This will solve and save the data to a file called "BL.mat". To view the results run the script "figs.m".
 
-![image](https://user-images.githubusercontent.com/29705711/176479396-d27ba9da-33bc-4d08-8046-86edb79a66a0.png)
-
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/29705711/176479396-d27ba9da-33bc-4d08-8046-86edb79a66a0.png" width="420">
+</p>
