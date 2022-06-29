@@ -1,6 +1,6 @@
 clear all; clc; close all
 
-BLfile = '../Flows/Stew_BL.mat';
+BLfile = 'BL.mat';
 load(BLfile); U = VelBL{1}; V = VelBL{2}; W = VelBL{3}; 
 
 Re = 50; r = 1+eta/Re;
