@@ -135,7 +135,7 @@ function BLRegion
     VelBL{9} = dU_dtheta; VelBL{10} = dV_dtheta; VelBL{11} = dW_dtheta; VelBL{12} = dP_dtheta; 
 
     % save data to file
-    filename = '../Flows/Stew_BL.mat';
+    filename = 'BL.mat';
     save(filename, 'VelBL', 'eta', 'theta')
     fprintf(repmat('\b',1,str3)); str3 = fprintf('Flow saved in %s\n', filename); pause(1)
     fprintf(repmat('\b',1,str3));fprintf(repmat('\b',1,str2));fprintf(repmat('\b',1,str1));
